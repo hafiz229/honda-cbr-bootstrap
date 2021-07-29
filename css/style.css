@@ -1,10 +1,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* header section design */
 .honda-header {
   background-color: #264653;
   color: white;
 }
+/* purchase button design */
 .honda-purchase-btn {
   display: flex;
   flex-direction: row;
@@ -23,7 +25,13 @@ body {
   font-weight: 500;
   color: white;
 }
+/* featured bike design */
 .honda-featured-bike img {
   width: 288px;
   height: 243px;
+}
+/* rating design */
+.fa-star.filled,
+.fa-star {
+  color: #e76f51;
 }
